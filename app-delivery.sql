@@ -1,6 +1,11 @@
 SELECT * FROM pratos;
+DELETE FROM pratos;
+SELECT nome, categoria FROM prato;
+
 SHOW DATABASES;
 SHOW TABLES;
+ALTER TABLE pratos ADD COLUMN categoria VARCHAR(255);
+
 USE `app-delivery`;
 
 CREATE TABLE pratos (
